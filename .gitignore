@@ -26,3 +26,22 @@
 *.exe
 *.out
 *.app
+
+# Qt
+build-*
+# Пользовательские файлы проекта 
+# (связанные с конкретной цепочной компиляции)
+*.user
+*.user.3.2-pre1
+
+# Code::Blocks
+bin
+obj
+*.depend
+*.layout
+*.autosave
+*.orig
+
+Makefile
+Makefile.Debug
+Makefile.Release
